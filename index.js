@@ -44,5 +44,17 @@ function successPosition(position) {
 function failPosition(error) {
 	//change time box to show updated message
 	$('#time').val("Error getting data: " + error);
+    
+
 	
+}
+var watchID = navigator.geolocation.watchPosition(
+				success, fail, locationOptions);
+
+function success(position) {
+	//do something with the position
+}
+
+function fail(error) {
+	//do something with the error
 }
