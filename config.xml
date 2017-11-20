@@ -6,11 +6,11 @@
     version     = "1.0.0" >
 
 
-  <name>Location</name>
+    <name>Location app</name>
 
-  <description>
-    
-  </description>
+    <description>
+        A sample application about locating the device using GPS.
+    </description>
  
     <!--Android 6.0 or newer: Plugin to support runtime permissions--> 
     <plugin name="cordova-plugin-geolocation-android-activator" />
